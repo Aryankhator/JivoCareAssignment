@@ -65,7 +65,7 @@
             <size key="customSize" width="648" height="200"/>
             <connections>
                 <outlet property="answerLabel" destination="JxG-yV-ORh" id="ReI-Pa-lAs"/>
-                <outlet property="expandButton" destination="FMo-JQ-0xX" id="9i4-3t-wOl"/>
+                <outlet property="expandButton" destination="FMo-JQ-0xX" id="BBg-0J-rlu"/>
                 <outlet property="questionLabel" destination="yNJ-X0-Cbb" id="9Qn-G3-uLZ"/>
             </connections>
             <point key="canvasLocation" x="193.89312977099235" y="111.9718309859155"/>

@@ -19,12 +19,12 @@ class ScanServieCell: UICollectionViewCell {
     
     override func awakeFromNib() {
         super.awakeFromNib()
-        setupGradient()
+        
     }
     
     override func layoutSubviews() {
         super.layoutSubviews()
-        
+        setupGradient()
         gradientLayer.frame = contentView.bounds
         
         contentView.roundCorners(topLeft: 30, topRight: 10, bottomLeft: 10, bottomRight: 10)
