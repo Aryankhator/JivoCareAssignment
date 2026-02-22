@@ -34,12 +34,6 @@
                             <constraint firstAttribute="width" constant="94" id="nmE-gL-fn9"/>
                             <constraint firstAttribute="height" constant="24" id="r0K-ha-NyX"/>
                         </constraints>
-                        <userDefinedRuntimeAttributes>
-                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
-                                <integer key="value" value="5"/>
-                            </userDefinedRuntimeAttribute>
-                            <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
-                        </userDefinedRuntimeAttributes>
                     </view>
                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jkD-qX-Htn">
                         <rect key="frame" x="8.0000000000000018" y="7.9999999999999991" width="31.666666666666671" height="13.666666666666664"/>
@@ -225,6 +219,7 @@
                 <outlet property="testSummaryLabel" destination="4CO-tS-3W8" id="cOX-gI-2sj"/>
                 <outlet property="testsIncludedLabel" destination="TBJ-wt-fOb" id="Cpd-cj-gCi"/>
                 <outlet property="titleLabel" destination="bct-vZ-p6U" id="CYx-m3-PyO"/>
+                <outlet property="topRightHeader" destination="N74-Nb-16O" id="ZRm-h9-rIH"/>
             </connections>
             <point key="canvasLocation" x="319.84732824427482" y="251.7605633802817"/>
         </collectionViewCell>

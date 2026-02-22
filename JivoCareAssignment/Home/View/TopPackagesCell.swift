@@ -19,10 +19,12 @@ class TopPackagesCell: UICollectionViewCell {
     @IBOutlet weak var fastingLabel: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
     @IBOutlet weak var annualLabel: UILabel!
-    
+    @IBOutlet weak var topRightHeader: UIView!
+
     override func awakeFromNib() {
         super.awakeFromNib()
         
+        topRightHeader.roundCorners(radius: 6, corners: [.bottomLeft, .topRight])
         layer.cornerRadius = 5
         layer.borderColor = UIColor(red: 0/255, green: 50/255, blue: 54/255, alpha: 0.3).cgColor
         layer.borderWidth = 0.8
